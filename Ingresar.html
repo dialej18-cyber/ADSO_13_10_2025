@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selcertify</title>
+    <!-- importamos fuentes de google -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" >
+ <!-- importamos materialize.css -->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css">
+    <!--Colocar imagen en la navegacion -->
+     <link rel="icon" href="imagenes/Logo2.jpg" type="image/x-icon">
+</head>
+<body>
+<!--Codigo para colocar barra de navegacion -->
+    <nav class="indigo darken-4"> <!--Colo barra de navegacion -->
+        <div class="nav-wrapper container"> <!--Centrar texto barra navegacion -->
+            <a href="#" class="brand-logo">
+            <img src="Imagenes/Logo1.png" style="width: 75px;"> <!--colocar y ajustar logo en barra de navegacion -->
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                 <li><a href="Conctactos.html".html">Contactanos</a></li> <!--Nombre de menus y enlace a otra pagina -->
+                <li><a href="Servicios.html">Nuestros Cervicios</a></li> <!--Nombre de menus y enlace a otra pagina -->
+                <li><a href="Sobrenosotros.html">Sobre nosotros</a></li> <!--Nombre de menus y enlace a otra pagina -->
+                <li><a href="ingresar.html">Ingresar</a></li> <!--Nombre de menus y enlace a otra pagina -->
+            </ul>
+        </div>
+  </nav>
+
+  <!--Crear formulario -->
+<div class='container center'>
+    <h3 class="header center grey-text text-darken-3">Loging</h3> <!-- Título -->
+    <div class="row card-panel">
+        <form class="col s10">
+      <div class="input-field col s5">
+        <label for="login-email">Email</label>
+        <input type="email" id="login-email" placeholder="Correo electrónico" class="validate" required>
+</div>
+      <div class="input-field col s5">
+        <label for="login-password">Contraseña</label>
+        <input type="password" id="login-password" placeholder="Contraseña" class="validate" required>
+</div>
+ <!--Crear icones de ingreso, recuperar contraseña y registrarse -->
+    <div class='container center'>
+    <button class="btn waves-effect orange darken-3 right" type="submit">Entrar
+        <i class="material-icons right">login</i>
+    </button>
+    <button class="btn waves-effect orange darken-3 center" type="submit">Registrate
+        <i class="material-icons center">login</i>
+    </button>
+    <button class="btn waves-effect orange darken-3" type="submit">Recuperar la Contraseña
+        <i class="material-icons center">login</i>
+    </button>
+
+    </form>
+</div>
+</div>
+</div>
+
+
+<!--Creacion pie de pagina estapa productiva -->
+<footer class="indigo darken-4"> <!--adicional green para el color del pie de pagina -->
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">SELCERTIFY</h5> <!--nombre del pie de pagina -->
+                <p class="grey-text text-lighten-4">Menos trámites, más eficiencia.</p> <!--nombre del pie de pagina -->
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="https://www.sena.edu.co/es-co/Paginas/default.aspx">SENA</a></li>   <!--cambiar nombre y asocial el link de la pagina a direccionar -->
+                  <li><a class="grey-text text-lighten-3" href="https://zajuna.sena.edu.co/">ZAJUNA</a></li>        <!--cambiar nombre y asocial el link de la pagina a direccionar -->
+                  <li><a class="grey-text text-lighten-3" href="https://oferta.senasofiaplus.edu.co/sofia-oferta/">SOFIA PLUS</a></li> <!--cambiar nombre y asocial el link de la pagina a direccionar -->
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2014 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+        </footer>
+
+    <!-- incluimos javascript al final del cuerpo para optimizar la carga -->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+</body>
+</html>
